@@ -25,7 +25,37 @@ The system operates through a sequential and evaluative state-flow:
 * Web Intel: Tavily AI, BeautifulSoup4, Requests
 * Frontend: Streamlit (Custom CSS-themed UI)
 * Infrastructure: Docker, Python-dotenv
-* 
+
+# 📦 Installation & Setup
+Prerequisites
+
+* Python 3.10+
+* Hugging Face API Token
+* Tavily API Key
+
+Local Setup
+
+1. Clone the Repo:
+```
+git clone https://github.com/YourUsername/ResearchMind.git
+```
+
+2. Environment Configuration:
+Create a .env file in the root directory:
+```
+HUGGINGFACE_API_KEY=your_hf_token
+TAVILY_API_KEY=your_tavily_key
+```
+
+3. Install Dependencies:
+```
+pip install -r requirement.txt
+```
+
+4. Launch Application:
+```
+streamlit run app.py
+```
 
 
 
