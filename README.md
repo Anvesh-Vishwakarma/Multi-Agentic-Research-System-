@@ -37,7 +37,7 @@ Local Setup
 
 1. Clone the Repo:
 ```
-git clone https://github.com/YourUsername/ResearchMind.git
+git clone https://github.com/Anvesh-Vishwakarma/Multi-Agentic-Research-System-.git
 ```
 
 2. Environment Configuration:
